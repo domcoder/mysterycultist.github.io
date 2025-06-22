@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Mystery Cultist</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Blog on Mystery Cultist</description>
+    <generator>Hugo</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Sat, 21 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DM Subclasses</title>
+      <link>http://localhost:1313/posts/2025-06-21-%232/</link>
+      <pubDate>Sat, 21 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2025-06-21-%232/</guid>
+      <description>&lt;h2 id=&#34;welcome&#34;&gt;Welcome&lt;/h2&gt;&#xA;&lt;p&gt;Hey.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Welcome To My Blog</title>
+      <link>http://localhost:1313/posts/2025-06-21/</link>
+      <pubDate>Sat, 21 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2025-06-21/</guid>
+      <description>&lt;h2 id=&#34;welcome&#34;&gt;Welcome&lt;/h2&gt;&#xA;&lt;p&gt;Hey.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/404/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/404/</guid>
+      <description>&lt;h2 id=&#34;sorry-theres-been-an-error&#34;&gt;Sorry, There&amp;rsquo;s Been An Error&lt;/h2&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,15 @@
+baseURL = 'https://mysterycultist.org/'
+languageCode = 'en-uk'
+title = 'Mystery Cultist'
+
+[params]
+    name = 'mysterycultist'
+
+[deployment]
+    confirm = false
+    dryRun = false
+    force = false
+    invalidateCDN = true
+    maxDeletes = 256
+    target = ''
+    workers = 10
