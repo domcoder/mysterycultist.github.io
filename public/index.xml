@@ -16,18 +16,18 @@
       <description>&lt;h2 id=&#34;welcome&#34;&gt;Welcome&lt;/h2&gt;&#xA;&lt;p&gt;Hey.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>The Assassin&#39;s Blade</title>
+      <link>http://localhost:1313/posts/2025-06-21-%233/</link>
+      <pubDate>Sat, 21 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2025-06-21-%233/</guid>
+      <description>&lt;h2 id=&#34;welcome&#34;&gt;Welcome&lt;/h2&gt;&#xA;&lt;p&gt;Hey.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Welcome To My Blog</title>
       <link>http://localhost:1313/posts/2025-06-21/</link>
       <pubDate>Sat, 21 Jun 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/2025-06-21/</guid>
       <description>&lt;h2 id=&#34;welcome&#34;&gt;Welcome&lt;/h2&gt;&#xA;&lt;p&gt;Hey.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/posts/404/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/404/</guid>
-      <description>&lt;h2 id=&#34;sorry-theres-been-an-error&#34;&gt;Sorry, There&amp;rsquo;s Been An Error&lt;/h2&gt;</description>
     </item>
     <item>
       <title>About</title>
@@ -37,11 +37,25 @@
       <description>&lt;p&gt;Hi, I&amp;rsquo;m the Mystery Cultist.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Blog</title>
+      <link>http://localhost:1313/blog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/</guid>
+      <description>&lt;p&gt;Empty&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Cheatsheet</title>
       <link>http://localhost:1313/cheatsheet/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/cheatsheet/</guid>
       <description>&lt;p&gt;Empty&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Error</title>
+      <link>http://localhost:1313/404/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/404/</guid>
+      <description>&lt;h2 id=&#34;sorry-theres-been-an-error&#34;&gt;Sorry, There&amp;rsquo;s Been An Error&lt;/h2&gt;</description>
     </item>
   </channel>
 </rss>
