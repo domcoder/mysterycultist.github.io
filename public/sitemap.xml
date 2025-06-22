@@ -2,32 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://mysterycultist.org/posts/</loc>
     <lastmod>2025-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2025-06-21-%232/</loc>
+    <loc>https://mysterycultist.org/posts/2025-06-21-%232/</loc>
     <lastmod>2025-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://mysterycultist.org/</loc>
     <lastmod>2025-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/none/</loc>
+    <loc>https://mysterycultist.org/tags/none/</loc>
     <lastmod>2025-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://mysterycultist.org/tags/</loc>
     <lastmod>2025-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2025-06-21/</loc>
+    <loc>https://mysterycultist.org/posts/2025-06-20-%233/</loc>
     <lastmod>2025-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/404/</loc>
+    <loc>https://mysterycultist.org/posts/2025-06-21/</loc>
+    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://mysterycultist.org/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>https://mysterycultist.org/blog/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://mysterycultist.org/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/cheatsheet/</loc>
+    <loc>https://mysterycultist.org/cheatsheet/</loc>
+  </url><url>
+    <loc>https://mysterycultist.org/404/</loc>
   </url>
 </urlset>
