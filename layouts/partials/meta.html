@@ -4,4 +4,4 @@
 {{ $style := resources.Get "sass/main.scss" | toCSS }}
 {{ $styleMin := $style | resources.Minify }}
 <link rel="stylesheet" href="{{ $styleMin.Permalink }}">
-<link rel="icon" href="{{ "favicon.ico" | relURL }}">
+<link rel="icon" href="/favicon.ico" />
