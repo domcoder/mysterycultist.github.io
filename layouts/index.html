@@ -1,0 +1,43 @@
+{{ define "main" }}
+    <div class="header">
+        <h2>{{ .Site.Title }}</h2>
+    </div>
+
+    <div class="row">
+        <div class="leftcolumn">
+            {{ range first 3 (sort .Site.RegularPages "Date" "desc") }}
+
+            <div class="card">
+                <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+                <h5>{{ .Date.Format "2 January, 2006" }}</h5>
+                {{ if .Params.featured_image }}
+                    <div class="fakeimg" style="height:200px;">
+                    <img src="{{ .Params.featured_image }}" alt="{{ .Title }}" style="width:100%; height:100%; object-fit: cover;">
+                </div>
+            {{ else }}
+                <div class="fakeimg" style="height:200px;">Image</div>
+            {{ end }}
+            <p>{{ .Summary }}</p>
+        </div>
+        {{ end }}
+    </div>
+
+    <div class="rightcolumn">
+        <div class="card">
+            <h2>About Me</h2>
+            <div class="fakeimg" style="height:100px;">Image</div>
+            <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+        </div>
+        <div class="card">
+            <h3>Popular Posts</h3>
+            <div class="fakeimg">Image</div><br>
+            <div class="fakeimg">Image</div><br>
+            <div class="fakeimg">Image</div>
+        </div>
+            <div class="card">
+                <h3>Follow Me</h3>
+                <p>Some text..</p>
+            </div>
+        </div>
+    </div>
+{{ end }}

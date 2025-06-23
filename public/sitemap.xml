@@ -3,34 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
+    <lastmod>2025-06-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2025-06-21-%232/</loc>
-    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-06-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
+    <lastmod>2025-06-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/none/</loc>
-    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/categories/test/</loc>
+    <lastmod>2025-06-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/posts/2025-06-23/</loc>
+    <lastmod>2025-06-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2025-06-21-%233/</loc>
-    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/posts/2025-06-22/</loc>
+    <lastmod>2025-06-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/2025-06-21/</loc>
     <lastmod>2025-06-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-  </url><url>
     <loc>http://localhost:1313/cheatsheet/</loc>
   </url><url>
     <loc>http://localhost:1313/404/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

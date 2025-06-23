@@ -1,9 +1,9 @@
 baseURL = 'https://mysterycultist.org/'
 languageCode = 'en-uk'
-title = 'Mystery Cultist'
+title = 'The Mystery Cultist'
 
 [params]
-    name = 'mysterycultist'
+    name = 'MysteryCultist'
 
 [deployment]
     confirm = false
