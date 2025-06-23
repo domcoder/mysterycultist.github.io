@@ -5,6 +5,8 @@ $tmpDir = Join-Path $env:TEMP ("gh-pages-" + [guid]::NewGuid().ToString())
 New-Item -ItemType Directory -Path $tmpDir | Out-Null
 
 try {
+    hugo --cleanDestinationDir
+
     git worktree add -B $targetBranch $tmpDir
 
     # Remove everything *except* .git
