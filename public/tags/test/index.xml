@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Test on The Mystery Cultist</title>
-    <link>http://localhost:1313/tags/test/</link>
+    <link>https://mysterycultist.com/tags/test/</link>
     <description>Recent content in Test on The Mystery Cultist</description>
     <generator>Hugo</generator>
     <language>en-uk</language>
     <lastBuildDate>Mon, 23 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mysterycultist.com/tags/test/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test Blog 3</title>
-      <link>http://localhost:1313/posts/2025-06-23/</link>
+      <link>https://mysterycultist.com/posts/2025-06-23/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2025-06-23/</guid>
+      <guid>https://mysterycultist.com/posts/2025-06-23/</guid>
       <description></description>
     </item>
     <item>
       <title>Test Blog 6</title>
-      <link>http://localhost:1313/posts/2025-06-23-copy/</link>
+      <link>https://mysterycultist.com/posts/2025-06-23-copy/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2025-06-23-copy/</guid>
+      <guid>https://mysterycultist.com/posts/2025-06-23-copy/</guid>
       <description></description>
     </item>
   </channel>

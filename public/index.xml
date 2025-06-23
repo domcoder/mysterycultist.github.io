@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on The Mystery Cultist</title>
-    <link>http://localhost:1313/</link>
+    <link>https://mysterycultist.com/</link>
     <description>Recent content in Home on The Mystery Cultist</description>
     <generator>Hugo</generator>
     <language>en-uk</language>
     <lastBuildDate>Mon, 23 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mysterycultist.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test Blog 3</title>
-      <link>http://localhost:1313/posts/2025-06-23/</link>
+      <link>https://mysterycultist.com/posts/2025-06-23/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2025-06-23/</guid>
+      <guid>https://mysterycultist.com/posts/2025-06-23/</guid>
       <description></description>
     </item>
     <item>
       <title>Test Blog 4 - the long one khhhhh hhhhhhhh hhhhhh</title>
-      <link>http://localhost:1313/posts/2025-06-23-2/</link>
+      <link>https://mysterycultist.com/posts/2025-06-23-2/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2025-06-23-2/</guid>
+      <guid>https://mysterycultist.com/posts/2025-06-23-2/</guid>
       <description>&lt;p&gt;Here&amp;rsquo;s really long lines of text&#xA;IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII&lt;/p&gt;</description>
     </item>
     <item>
       <title>Test Blog 6</title>
-      <link>http://localhost:1313/posts/2025-06-23-copy/</link>
+      <link>https://mysterycultist.com/posts/2025-06-23-copy/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2025-06-23-copy/</guid>
+      <guid>https://mysterycultist.com/posts/2025-06-23-copy/</guid>
       <description></description>
     </item>
     <item>
       <title>Test Blog 2</title>
-      <link>http://localhost:1313/posts/2025-06-22/</link>
+      <link>https://mysterycultist.com/posts/2025-06-22/</link>
       <pubDate>Sun, 22 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2025-06-22/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Hey, this is test blog post #2.&lt;/p&gt;&#xA;&lt;p&gt;Once-over of markdown.&lt;/p&gt;&#xA;&lt;h1 id=&#34;title&#34;&gt;Title&lt;/h1&gt;&#xA;&lt;h2 id=&#34;title-h2&#34;&gt;Title H2&lt;/h2&gt;&#xA;&lt;h3 id=&#34;small-title&#34;&gt;Small title&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Bold text.&lt;/strong&gt;&#xA;&lt;em&gt;Italics.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Quote text&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;List item one&lt;/li&gt;&#xA;&lt;li&gt;List item two&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Mhh&lt;/li&gt;&#xA;&lt;li&gt;Evil&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;code&gt;Code text.&lt;/code&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://mysterycultist.com&#34;&gt;Web Link&lt;/a&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/icon.webp&#34; alt=&#34;Image&#34;&gt;&lt;/p&gt;</description>
+      <guid>https://mysterycultist.com/posts/2025-06-22/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Hey, this is test blog post #2.&lt;/p&gt;&#xA;&lt;p&gt;Once-over of markdown.&lt;/p&gt;&#xA;&lt;h1 id=&#34;title&#34;&gt;Title&lt;/h1&gt;&#xA;&lt;h2 id=&#34;title-h2&#34;&gt;Title H2&lt;/h2&gt;&#xA;&lt;h3 id=&#34;small-title&#34;&gt;Small title&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Bold text.&lt;/strong&gt;&#xA;&lt;em&gt;Italics.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Quote text&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;List item one&lt;/li&gt;&#xA;&lt;li&gt;List item two&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Mhh&lt;/li&gt;&#xA;&lt;li&gt;Evil&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;code&gt;Code text.&lt;/code&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://mysterycultist.com&#34;&gt;Web Link&lt;/a&gt;&#xA;&lt;img src=&#34;https://mysterycultist.com/images/icon.webp&#34; alt=&#34;Image&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Test Blog 1</title>
-      <link>http://localhost:1313/posts/2025-06-21/</link>
+      <link>https://mysterycultist.com/posts/2025-06-21/</link>
       <pubDate>Sat, 21 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2025-06-21/</guid>
+      <guid>https://mysterycultist.com/posts/2025-06-21/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Learned a few things about the website.&lt;/p&gt;&#xA;&lt;p&gt;Use hugo server -F -D so that you can see future-scheduled and draft posts.&lt;/p&gt;&#xA;&lt;p&gt;Another paragraph to test summary.&lt;/p&gt;&#xA;&lt;p&gt;And another.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://mysterycultist.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://mysterycultist.com/about/</guid>
       <description>&lt;p&gt;Hi, I&amp;rsquo;m the Mystery Cultist.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cheatsheet</title>
-      <link>http://localhost:1313/cheatsheet/</link>
+      <link>https://mysterycultist.com/cheatsheet/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/cheatsheet/</guid>
+      <guid>https://mysterycultist.com/cheatsheet/</guid>
       <description>&lt;p&gt;Empty&amp;hellip;&lt;/p&gt;</description>
     </item>
   </channel>
