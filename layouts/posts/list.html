@@ -1,8 +1,8 @@
 {{ define "main" }}
 <div class="list">
   {{ range sort (where .Paginator.Pages ".Params.authors" "!=" nil) "Date" "desc" }}
-  <a href="{{ .Permalink }}" class="postCardLink">
-    <div class="listItem">
+  <div class="listItem">
+    <a href="{{ .Permalink }}" class="postCardLink">
       <img
         src="{{ .Params.image }}"
         alt="{{ .Title }}"
@@ -24,8 +24,8 @@
           {{ end }}
         </div>
       </div>
-    </div>
-  </a>
+    </a>
+  </div>
   {{ end }}
   {{ template "_internal/pagination.html" . }}
 </div>

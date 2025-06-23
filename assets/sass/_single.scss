@@ -1,0 +1,16 @@
+.single-post {
+  background: var(--bgSoft);
+  //border-radius: 8px;
+  padding: 2rem;
+  width: 700px;
+  min-height: 600px;
+  margin: 3rem auto;
+  color: var(--text);
+  overflow-wrap: break-word;
+  hyphens: auto;
+  border-radius: 6px;
+
+  .post-header, .post-content, .post-tags {
+    margin-bottom: 1.5rem;
+  }
+}

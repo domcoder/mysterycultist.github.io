@@ -1,13 +1,3 @@
-.listItem {
-  min-height: auto;
-  padding: 0;
-}
-
-.listItemDesc {
-  font-size: 0.9rem;
-  color: #666;
-}
-
 .listItemImage {
   height: 150px;
 }
@@ -17,15 +7,7 @@
   padding: 2rem;
   margin: 1rem auto 2rem;
   text-align: center;
-  border-radius: 0.5rem;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  max-width: 600px;
-
-  h1 {
-    margin: 0;
-    font-size: 1.5rem;
-    color: #333;
-  }
+  border-radius: 6px;
 }
 
 .listItemTexts {
@@ -33,37 +15,9 @@
 }
 
 .listItemTitle {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
 }
 
 .listItemDesc {
-  font-size: 0.85rem;
   color: #666;
-}
-
-.listItemLink {
-  text-decoration: none;
-  color: inherit;
-  display: block;
-
-  &:hover .listItem {
-    transform: translateY(-4px);
-    transition: transform 0.2s ease-in-out;
-  }
-}
-
-.tagCardLink {
-  display: block;
-  text-decoration: none;
-  color: inherit;
-
-  .listItem {
-    cursor: pointer;
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-
-    &:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
-    }
-  }
 }

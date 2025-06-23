@@ -1,22 +1,40 @@
 .list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
-  padding: 2rem;
+  padding: 5rem;
+  align-items: stretch;
 }
 
 .listItem {
-  background: #fff;
-  border-radius: 0.5rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  background: var(--bgSoft);
+  border-radius: 6px;
+  overflow: hidden;
+  height: 100%;
+}
 
-  &:hover {
-    transform: translateY(-4px);
-    transition: transform 0.2s ease-in-out;
-  }
+.listItemDesc {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+  max-height: 4.5em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  word-break: break-word;
+  flex: 1;
+}
+
+.listItemTexts {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .listItemImage {
@@ -25,56 +43,12 @@
   object-fit: cover;
 }
 
-.listItemTexts {
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.listItemTitle {
-  font-size: 1.25rem;
-  margin: 0;
-
-  a {
-    text-decoration: none;
-    color: #333;
-
-    &:hover {
-      color: #007acc;
-    }
-  }
-}
-
-.listItemDesc {
-  font-size: 1rem;
-  color: #555;
-}
-
 .listItemDetail {
   font-size: 0.875rem;
-  color: #777;
+  color: var(--textSoft);
+  margin-top: auto;
 
   time {
     font-weight: bold;
-  }
-}
-
-.listItemCategories {
-  margin-top: 0.5rem;
-
-  .listItemCategory {
-    display: inline-block;
-    background: #007acc;
-    color: #fff;
-    padding: 0.25rem 0.5rem;
-    border-radius: 0.25rem;
-    font-size: 0.75rem;
-    text-decoration: none;
-    margin-right: 0.25rem;
-
-    &:hover {
-      background: #005f99;
-    }
   }
 }

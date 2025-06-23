@@ -14,18 +14,26 @@
     margin: 0 auto;
   }
 
-  .leftcolumn {
-    flex: 3;
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-  }
+  @media (max-width: 768px) {
+    .row {
+      flex-direction: column;
+    }
 
-  .rightcolumn {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
+    .leftcolumn {
+      flex: 3;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .rightcolumn {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
   }
 
   .card {
@@ -42,6 +50,7 @@
 
     .post-image {
       flex: 1;
+      border-right: 2px solid #838383;
 
       img, .fakeimg {
         max-width: 100%;
@@ -52,48 +61,38 @@
 
     .post-content {
       flex: 2;
-      border-left: 2px solid #000;
       padding-left: 1rem;
-
-      h2 {
-        margin-top: 0;
-      }
+      overflow: hidden;
+      -webkit-box-orient: vertical;
 
       h5 {
         color: var(--textSoft);
-        font-weight: 400;
-        margin-bottom: 1rem;
-      }
-
-      p {
-        margin: 0;
-        line-height: 1.5;
+        margin-bottom: 0.5rem;
       }
     }
   }
 
   .about-me {
-    position: relative;
-
     .about-img {
       width: 30%;
       float: left;
       margin-right: 1rem;
     }
+  }
 
-    p {
-      overflow: hidden;
-    }
+  .popular-posts {
+    overflow: hidden;
+    max-width: 100%;
   }
 
   .popular-posts .fakeimg {
+    box-sizing: border-box;
     background: #eee;
     height: 100px;
     margin-bottom: 1rem;
-    border-radius: 4px;
   }
 
-  .tip-me p {
-    margin: 0;
+  .popular-posts > h3 {
+    margin-bottom: 1rem;
   }
 }

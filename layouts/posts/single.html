@@ -1,5 +1,24 @@
 {{ define "main" }}
-    <h1>{{ .Params.Title }}</h1>
-    <p>{{ .Date.Format "2 January, 2006" }}</p>
-{{ .Content }}
+<article class="single-post">
+  <header class="post-header">
+    <h1 class="post-title">{{ .Title }}</h1>
+    <p class="post-date">{{ .Date.Format "02 Jan 2006" }}</p>
+    {{ with .Params.image }}
+      <img src="{{ . }}" alt="{{ $.Title }}" class="post-featured-image"/>
+    {{ end }}
+    {{ with .Params.authors }}
+      <p class="post-authors">By {{ delimit . ", " }}</p>
+    {{ end }}
+  </header>
+  <section class="post-content">
+    {{ .Content }}
+  </section>
+  {{ with .Params.tags }}
+  <footer class="post-tags">
+    <strong>Tags:</strong> {{ range $index, $tag := . }}
+      {{ if $index }}, {{ end }}<a href="/tags/{{ $tag | urlize }}/">{{ $tag }}</a>
+    {{ end }}
+  </footer>
+  {{ end }}
+</article>
 {{ end }}
