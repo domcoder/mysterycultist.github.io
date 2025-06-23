@@ -1,3 +1,10 @@
-{{ define "main" }}
-    {{ .Content }}
-{{ end }}
+<!DOCTYPE html>
+<html>
+    <head>
+        {{ partial "meta.html" . }}
+    </head>
+
+    <body>
+        {{ .Content }}
+    </body>
+</html>

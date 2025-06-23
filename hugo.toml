@@ -4,6 +4,10 @@ title = 'The Mystery Cultist'
 
 [params]
     name = 'MysteryCultist'
+    dateFormat = "2 January, 2006"
+
+[taxonomies]
+    tag = "tags"
 
 [deployment]
     confirm = false

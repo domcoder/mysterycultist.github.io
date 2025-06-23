@@ -5,16 +5,28 @@
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2025-06-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/tags/developer-test/</loc>
     <lastmod>2025-06-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2025-06-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/test/</loc>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-06-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/test/</loc>
     <lastmod>2025-06-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/2025-06-23/</loc>
+    <lastmod>2025-06-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2025-06-23-2/</loc>
+    <lastmod>2025-06-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2025-06-23-copy/</loc>
+    <lastmod>2025-06-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/unknown/</loc>
     <lastmod>2025-06-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/2025-06-22/</loc>
@@ -26,9 +38,5 @@
     <loc>http://localhost:1313/about/</loc>
   </url><url>
     <loc>http://localhost:1313/cheatsheet/</loc>
-  </url><url>
-    <loc>http://localhost:1313/404/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

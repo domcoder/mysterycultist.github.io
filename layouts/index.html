@@ -1,43 +1,61 @@
 {{ define "main" }}
+
+<div class="card">        
     <div class="header">
         <h2>{{ .Site.Title }}</h2>
     </div>
+    <div class="centretext">
+        My haven for exploring roleplaying games.
+    </div>
+</div>
 
+<body class="homepage">
     <div class="row">
         <div class="leftcolumn">
-            {{ range first 3 (sort .Site.RegularPages "Date" "desc") }}
-
-            <div class="card">
-                <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-                <h5>{{ .Date.Format "2 January, 2006" }}</h5>
-                {{ if .Params.featured_image }}
-                    <div class="fakeimg" style="height:200px;">
-                    <img src="{{ .Params.featured_image }}" alt="{{ .Title }}" style="width:100%; height:100%; object-fit: cover;">
+            {{ range first 3 (where .Site.RegularPages "Section" "posts") }}
+            <a href="{{ .Permalink }}" class="post-card-link">
+            <article class="card post-card">
+                <div class="post-image">
+                {{ with .Params.image }}
+                <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+                {{ else }}
+                <div class="fakeimg">Image</div>
+                {{ end }}
                 </div>
-            {{ else }}
-                <div class="fakeimg" style="height:200px;">Image</div>
+                <div class="post-content">
+                <h2>{{ .Title }}</h2>
+                <h5>
+                    <time>{{ dateFormat .Site.Params.dateFormat .Date }}</time> | 
+                    {{ with .Params.authors }}
+                    {{ delimit . ", " }}
+                    {{ end }}
+                </h5>
+                <p>{{ .Params.description }}</p>
+                </div>
+            </article>
+            </a>
             {{ end }}
-            <p>{{ .Summary }}</p>
         </div>
-        {{ end }}
-    </div>
 
-    <div class="rightcolumn">
-        <div class="card">
-            <h2>About Me</h2>
-            <div class="fakeimg" style="height:100px;">Image</div>
-            <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+        <aside class="rightcolumn">
+            <section class="card about-me">
+                <h2>About Me</h2>
+                <img src="/images/icon.webp" alt="MysteryCultist" class="about-img">
+                <p>Troupe-director, storyteller and dreamer. I am the Mystery Cultist and this is where you will find my horde of advice in the realms of stories and tales.</p>
+            </section>
+
+            <section class="card popular-posts">
+                <h3>Popular Posts</h3>
+                <div class="fakeimg">Image</div>
+                <div class="fakeimg">Image</div>
+                <div class="fakeimg">Image</div>
+            </section>
+
+            <section class="card tip-me">
+                <h3>Tip Me</h3>
+                <p>Link to Ko-Fi, Patreon</p>
+            </section>
+        </aside>
         </div>
-        <div class="card">
-            <h3>Popular Posts</h3>
-            <div class="fakeimg">Image</div><br>
-            <div class="fakeimg">Image</div><br>
-            <div class="fakeimg">Image</div>
-        </div>
-            <div class="card">
-                <h3>Follow Me</h3>
-                <p>Some text..</p>
-            </div>
-        </div>
-    </div>
+</body>
 {{ end }}

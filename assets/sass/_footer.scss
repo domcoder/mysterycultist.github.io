@@ -1,0 +1,10 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  font-size: 14px;
+  padding-top: 3rem;
+  color: var(--bg);
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}

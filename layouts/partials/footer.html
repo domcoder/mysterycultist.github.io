@@ -1,7 +1,13 @@
 {{ with .Params.hide_footer }}
  <!-- No footer here! -->
 {{ else }}
-    <footer>
-        © {{ .Site.Params.name }} {{ now.Year }}
-    </footer>
+    <div class="footer">
+        <div class="footerLinks">
+            <a href="/">MysteryCultist | </a>
+            <a href="/sitemap.xml">sitemap</a>
+        </div>
+        <div class="copyright">
+            © {{ .Site.Params.name }} {{ now.Year }}
+        </div>
+    </div>
 {{ end }}

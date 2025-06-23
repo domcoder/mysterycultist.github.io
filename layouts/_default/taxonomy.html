@@ -1,0 +1,30 @@
+{{ define "main" }}
+<div class="tagHeaderCard">
+  <h1>Posts tagged: {{ .Title }}</h1>
+</div>
+
+<div class="list">
+  {{ range sort .Pages "Date" "desc" }}
+  <a href="{{ .Permalink }}" class="postCardLink">
+    <div class="listItem">
+      <img
+        src="{{ .Params.image }}"
+        alt="{{ .Title }}"
+        class="listItemImage"
+        loading="lazy"
+      />
+      <div class="listItemTexts">
+        <h1 class="listItemTitle">{{ .Title }}</h1>
+        <p class="listItemDesc">{{ .Params.description }}</p>
+        <div class="listItemDetail">
+          <p>
+            <time>{{ dateFormat .Site.Params.dateFormat .Date }}</time> |
+            {{ with .Params.authors }}{{ delimit . ", " }}{{ end }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </a>
+  {{ end }}
+</div>
+{{ end }}

@@ -1,0 +1,45 @@
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+.fakeimg {
+  background-color: var(--bgSoft);
+  width: 100%;
+  padding: 20px;
+}
+
+.card {
+  background-color: var(--bgSoft);
+  padding: 20px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.postCardLink {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+
+  .listItem {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+
+    &:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    }
+  }
+}

@@ -1,5 +1,6 @@
 <meta charset="utf-8">
 <title>{{ .Page.Title }}</title>
 <!-- Builds scss style sheet into css for page styling -->
-{{ $style := resources.Get "sass/main.scss" | css.Sass | resources.Minify }}
-<link rel="stylesheet" href="{{ $style.Permalink }}">
+{{ $style := resources.Get "sass/main.scss" | toCSS }}
+{{ $styleMin := $style | resources.Minify }}
+<link rel="stylesheet" href="{{ $styleMin.Permalink }}">

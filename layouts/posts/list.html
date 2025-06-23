@@ -1,10 +1,32 @@
 {{ define "main" }}
-    <h1>My posts</h1>
-    <ul>
-{{ range where .Site.RegularPages "Section" "posts" }}
-        <ul>
-            <a href="{{ .Permalink }}">{{ .Title }}</a> – {{ .Date.Format "2 January, 2006" }}
-        </ul>        
-{{ end }}
-    </ul>
+<div class="list">
+  {{ range sort (where .Paginator.Pages ".Params.authors" "!=" nil) "Date" "desc" }}
+  <a href="{{ .Permalink }}" class="postCardLink">
+    <div class="listItem">
+      <img
+        src="{{ .Params.image }}"
+        alt="{{ .Title }}"
+        class="listItemImage"
+        loading="lazy"
+      />
+      <div class="listItemTexts">
+        <h1 class="listItemTitle">{{ .Title }}</h1>
+        <p class="listItemDesc">{{ .Params.description }}</p>
+        <div class="listItemDetail">
+          <p>
+            <time>{{ dateFormat .Site.Params.dateFormat .Date }}</time> |
+            {{ with .Params.authors }}{{ delimit . ", " }}{{ end }}
+          </p>
+        </div>
+        <div class="listItemCategories">
+          {{ range (.GetTerms "categories") }}
+          <a class="listItemCategory" href="{{ .Permalink }}">{{ .Name }}</a>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </a>
+  {{ end }}
+  {{ template "_internal/pagination.html" . }}
+</div>
 {{ end }}

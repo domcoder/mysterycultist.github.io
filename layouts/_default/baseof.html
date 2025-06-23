@@ -1,13 +1,14 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
     <head>
         {{ partial "meta.html" . }}
     </head>
 
     <body>
-        {{ partial "nav.html" }}
-        {{ block "main" . }}
-        {{ partial "footer.html" . }}
-        {{ end }}
+        <div class="container">
+            {{ partial "nav.html" }}
+            {{ block "main" . }} {{ end }}
+            {{ partial "footer.html" . }}
+        </div>
     </body>
 </html>

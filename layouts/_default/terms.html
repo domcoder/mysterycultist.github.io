@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="tagHeaderCard">
+  <h1>All Tags</h1>
+</div>
+
+<div class="list">
+  {{ range .Data.Terms.Alphabetical }}
+  <a href="{{ .Page.Permalink }}" class="tagCardLink">
+    <div class="listItem">
+      {{ with .Page.Params.image }}
+      <img src="{{ . }}" alt="{{ .Page.Title }}" class="listItemImage" loading="lazy" />
+      {{ end }}
+      <div class="listItemTexts">
+        <h1 class="listItemTitle">{{ .Page.Title }}</h1>
+        <p class="listItemDesc">{{ .Count }} posts</p>
+      </div>
+    </div>
+  </a>
+  {{ end }}
+</div>
+{{ end }}
