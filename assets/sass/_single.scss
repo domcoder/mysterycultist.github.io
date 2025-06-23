@@ -1,16 +1,16 @@
 .single-post {
   background: var(--bgSoft);
-  //border-radius: 8px;
   padding: 2rem;
   width: 700px;
   min-height: 600px;
-  margin: 3rem auto;
+  margin: auto;
   color: var(--text);
   overflow-wrap: break-word;
   hyphens: auto;
   border-radius: 6px;
+  margin-top: 2rem;
 
   .post-header, .post-content, .post-tags {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
   }
 }
