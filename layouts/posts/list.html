@@ -1,17 +1,17 @@
 {{ define "main" }}
-<div class="list">
+<div class="cardGrid">
   {{ range sort (where .Paginator.Pages ".Params.authors" "!=" nil) "Date" "desc" }}
-  <a href="{{ .Permalink }}" class="listItem postCardLink">
+  <a href="{{ .Permalink }}" class="smallCard postCardLink">
     <img
       src="{{ .Params.image }}"
       alt="{{ .Title }}"
-      class="listItemImage"
+      class="cardSmallImage"
       loading="lazy"
     />
-    <div class="listItemTexts">
+    <div class="tagText">
       <h1 class="listItemTitle">{{ .Title }}</h1>
-      <p class="listItemDesc">{{ .Params.description }}</p>
-      <div class="listItemDetail">
+      <p class="cardDescription">{{ .Params.description }}</p>
+      <div class="cardInfo">
         <div class="dateText">
           <time>{{ dateFormat .Site.Params.dateFormat .Date }}</time></time> |
           <span class="listItemAuthors">{{ with .Params.authors }}{{ delimit . ", " }}{{ end }}</span>

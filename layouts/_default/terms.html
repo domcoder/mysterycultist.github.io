@@ -1,18 +1,18 @@
 {{ define "main" }}
-<div class="tagHeaderCard">
+<div class="tagTitleCard">
   <h1>All Tags</h1>
 </div>
 
-<div class="list">
+<div class="cardGrid">
   {{ range .Data.Terms.Alphabetical }}
   <a href="{{ .Page.Permalink }}" class="tagCardLink">
-    <div class="listItem">
+    <div class="smallCard">
       {{ with .Page.Params.image }}
-      <img src="{{ . }}" alt="{{ .Page.Title }}" class="listItemImage" loading="lazy" />
+      <img src="{{ . }}" alt="{{ .Page.Title }}" class="cardSmallImage" loading="lazy" />
       {{ end }}
-      <div class="listItemTexts">
+      <div class="tagText">
         <h1 class="listItemTitle">{{ .Page.Title }}</h1>
-        <p class="listItemDesc">{{ .Count }} posts</p>
+        <p class="cardDescription">{{ .Count }} posts</p>
       </div>
     </div>
   </a>

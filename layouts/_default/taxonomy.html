@@ -1,22 +1,22 @@
 {{ define "main" }}
-<div class="tagHeaderCard">
+<div class="tagTitleCard">
   <h1>Posts tagged: {{ .Title }}</h1>
 </div>
 
-<div class="list">
+<div class="cardGrid">
   {{ range sort .Pages "Date" "desc" }}
   <a href="{{ .Permalink }}" class="postCardLink">
-    <div class="listItem">
+    <div class="smallCard">
       <img
         src="{{ .Params.image }}"
         alt="{{ .Title }}"
-        class="listItemImage"
+        class="cardSmallImage"
         loading="lazy"
       />
-      <div class="listItemTexts">
+      <div class="tagText">
         <h1 class="listItemTitle">{{ .Title }}</h1>
-        <p class="listItemDesc">{{ .Params.description }}</p>
-        <div class="listItemDetail">
+        <p class="cardDescription">{{ .Params.description }}</p>
+        <div class="cardInfo">
           <p>
             <time>{{ dateFormat .Site.Params.dateFormat .Date }}</time> |
             {{ with .Params.authors }}{{ delimit . ", " }}{{ end }}

@@ -3,16 +3,16 @@
     <div class="row">
         <div class="leftcolumn">
             {{ range first 3 (where .Site.RegularPages "Section" "posts") }}
-            <a href="{{ .Permalink }}" class="post-card-link">
-            <article class="card post-card">
-                <div class="post-image">
+            <a href="{{ .Permalink }}" class="largeCard-link">
+            <article class="card largeCard">
+                <div class="cardLargeImage">
                 {{ with .Params.image }}
                 <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
                 {{ else }}
                 <div class="fakeimg">Image</div>
                 {{ end }}
                 </div>
-                <div class="post-content">
+                <div class="cardDescription">
                 <h2>{{ .Title }}</h2>
                 <h5>
                     <time>{{ dateFormat .Site.Params.dateFormat .Date }}</time> | 

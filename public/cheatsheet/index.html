@@ -60,11 +60,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function filterPosts(query) {
   query = query.toLowerCase();
-  const items = document.querySelectorAll('.listItem');
+  const items = document.querySelectorAll('.smallCard');
 
   items.forEach(item => {
     const title = item.querySelector('.listItemTitle')?.innerText.toLowerCase() || '';
-    const desc = item.querySelector('.listItemDesc')?.innerText.toLowerCase() || '';
+    const desc = item.querySelector('.cardDescription')?.innerText.toLowerCase() || '';
     const date = item.querySelector('time')?.innerText.toLowerCase() || '';
     const authors = item.querySelector('.listItemAuthors')?.innerText.toLowerCase() || '';
 
@@ -88,7 +88,7 @@ function filterPosts(query) {
   <header class="post-header">
     <h1>Cheatsheet</h1>
   </header>
-  <section class="post-content">
+  <section class="cardDescription">
     <p>Empty&hellip;</p>
 
   </section>

@@ -46,11 +46,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function filterPosts(query) {
   query = query.toLowerCase();
-  const items = document.querySelectorAll('.listItem');
+  const items = document.querySelectorAll('.smallCard');
 
   items.forEach(item => {
     const title = item.querySelector('.listItemTitle')?.innerText.toLowerCase() || '';
-    const desc = item.querySelector('.listItemDesc')?.innerText.toLowerCase() || '';
+    const desc = item.querySelector('.cardDescription')?.innerText.toLowerCase() || '';
     const date = item.querySelector('time')?.innerText.toLowerCase() || '';
     const authors = item.querySelector('.listItemAuthors')?.innerText.toLowerCase() || '';
 

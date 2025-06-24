@@ -61,11 +61,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function filterPosts(query) {
   query = query.toLowerCase();
-  const items = document.querySelectorAll('.listItem');
+  const items = document.querySelectorAll('.smallCard');
 
   items.forEach(item => {
     const title = item.querySelector('.listItemTitle')?.innerText.toLowerCase() || '';
-    const desc = item.querySelector('.listItemDesc')?.innerText.toLowerCase() || '';
+    const desc = item.querySelector('.cardDescription')?.innerText.toLowerCase() || '';
     const date = item.querySelector('time')?.innerText.toLowerCase() || '';
     const authors = item.querySelector('.listItemAuthors')?.innerText.toLowerCase() || '';
 
@@ -89,14 +89,14 @@ function filterPosts(query) {
     <div class="row">
         <div class="leftcolumn">
             
-            <a href="http://localhost:1313/posts/2025-06-23/" class="post-card-link">
-            <article class="card post-card">
-                <div class="post-image">
+            <a href="http://localhost:1313/posts/2025-06-23/" class="largeCard-link">
+            <article class="card largeCard">
+                <div class="cardLargeImage">
                 
                 <img src="/images/icon.webp" alt="Home" loading="lazy">
                 
                 </div>
-                <div class="post-content">
+                <div class="cardDescription">
                 <h2>Test Blog 3</h2>
                 <h5>
                     <time>23 June, 2025</time> | 
@@ -109,14 +109,14 @@ function filterPosts(query) {
             </article>
             </a>
             
-            <a href="http://localhost:1313/posts/2025-06-23-2/" class="post-card-link">
-            <article class="card post-card">
-                <div class="post-image">
+            <a href="http://localhost:1313/posts/2025-06-23-2/" class="largeCard-link">
+            <article class="card largeCard">
+                <div class="cardLargeImage">
                 
                 <img src="/images/icon.webp" alt="Home" loading="lazy">
                 
                 </div>
-                <div class="post-content">
+                <div class="cardDescription">
                 <h2>Test Blog 4 - the long one khhhhh hhhhhhhh hhhhhh</h2>
                 <h5>
                     <time>23 June, 2025</time> | 
@@ -129,14 +129,14 @@ function filterPosts(query) {
             </article>
             </a>
             
-            <a href="http://localhost:1313/posts/2025-06-23-copy/" class="post-card-link">
-            <article class="card post-card">
-                <div class="post-image">
+            <a href="http://localhost:1313/posts/2025-06-23-copy/" class="largeCard-link">
+            <article class="card largeCard">
+                <div class="cardLargeImage">
                 
                 <img src="/images/icon.webp" alt="Home" loading="lazy">
                 
                 </div>
-                <div class="post-content">
+                <div class="cardDescription">
                 <h2>Test Blog 6</h2>
                 <h5>
                     <time>23 June, 2025</time> | 
