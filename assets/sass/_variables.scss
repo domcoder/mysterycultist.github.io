@@ -1,8 +1,40 @@
 :root {
+  // Background colours
   --bg: #383838;
   --bgSoft: #c9c9c9;
-  --text: #000000;
-  --textSoft: #3a3a3a;
   --textHover: #800000;
   --shadow: #11111111;
+
+  // Text colours
+  --text: #000000;
+  --textSoft: #3a3a3a;
+
+  // Custom text
+  .dateText {
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.75rem;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+  }
 }

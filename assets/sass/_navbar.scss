@@ -71,3 +71,35 @@
   height: 20px;
   fill: currentColor;
 }
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+}
+
+.searchContainer svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+.searchContainer input {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bgSoft);
+  color: var(--text);
+  width: 200px;
+  transition: width 0.3s ease;
+  font-size: 1rem;
+  height: 36px; /* match SVG height approx */
+  box-sizing: border-box;
+
+  &:focus {
+    outline: none;
+    width: 250px;
+    border-color: var(--accent);
+  }
+}

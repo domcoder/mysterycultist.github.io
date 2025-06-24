@@ -99,3 +99,17 @@
     margin-bottom: 1rem;
   }
 }
+
+.custom-kofi-button {
+  display: inline-block;
+  padding: 8px 16px;
+  background: #323842;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.custom-kofi-button:hover {
+  background: #444c5c;
+}

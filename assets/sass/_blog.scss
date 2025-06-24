@@ -1,10 +1,9 @@
 .list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 2rem;
   padding: 2rem;
-  max-width: 1200px;
-  box-sizing: border-box;
+  max-width: 1080px;
   margin: 0 auto;
 }
 
@@ -16,7 +15,6 @@
   border-radius: 6px;
   overflow: hidden;
   height: 100%;
-  min-width: 18rem;
 }
 
 .listItemDesc {
@@ -47,10 +45,6 @@
 }
 
 .listItemDetail {
-  font-size: 0.875rem;
   color: var(--textSoft);
-
-  time {
-    font-weight: bold;
-  }
+  margin-top: auto;
 }

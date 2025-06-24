@@ -1,7 +1,6 @@
 .single-post {
   background: var(--bgSoft);
   padding: 2rem;
-  width: 700px;
   min-height: 600px;
   margin: auto;
   color: var(--text);
@@ -9,6 +8,7 @@
   hyphens: auto;
   border-radius: 6px;
   margin-top: 2rem;
+  max-width: 1400px;
 
   .post-header, .post-content, .post-tags {
     margin-bottom: 1rem;

@@ -1,8 +1,8 @@
 .footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   height: 3rem;
-  font-size: 14px;
+  font-size: 0.875rem;
   padding-top: 3rem;
   color: var(--bg);
   -webkit-filter: invert(100%);

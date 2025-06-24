@@ -1,31 +1,29 @@
 {{ define "main" }}
 <div class="list">
   {{ range sort (where .Paginator.Pages ".Params.authors" "!=" nil) "Date" "desc" }}
-  <div class="listItem">
-    <a href="{{ .Permalink }}" class="postCardLink">
-      <img
-        src="{{ .Params.image }}"
-        alt="{{ .Title }}"
-        class="listItemImage"
-        loading="lazy"
-      />
-      <div class="listItemTexts">
-        <h1 class="listItemTitle">{{ .Title }}</h1>
-        <p class="listItemDesc">{{ .Params.description }}</p>
-        <div class="listItemDetail">
-          <p>
-            <time>{{ dateFormat .Site.Params.dateFormat .Date }}</time> |
-            {{ with .Params.authors }}{{ delimit . ", " }}{{ end }}
-          </p>
-        </div>
-        <div class="listItemCategories">
-          {{ range (.GetTerms "categories") }}
-          <a class="listItemCategory" href="{{ .Permalink }}">{{ .Name }}</a>
-          {{ end }}
+  <a href="{{ .Permalink }}" class="listItem postCardLink">
+    <img
+      src="{{ .Params.image }}"
+      alt="{{ .Title }}"
+      class="listItemImage"
+      loading="lazy"
+    />
+    <div class="listItemTexts">
+      <h1 class="listItemTitle">{{ .Title }}</h1>
+      <p class="listItemDesc">{{ .Params.description }}</p>
+      <div class="listItemDetail">
+        <div class="dateText">
+          <time>{{ dateFormat .Site.Params.dateFormat .Date }}</time></time> |
+          <span class="listItemAuthors">{{ with .Params.authors }}{{ delimit . ", " }}{{ end }}</span>
         </div>
       </div>
-    </a>
-  </div>
+      <div class="listItemCategories">
+        {{ range (.GetTerms "categories") }}
+        <a class="listItemCategory" href="{{ .Permalink }}">{{ .Name }}</a>
+        {{ end }}
+      </div>
+    </div>
+  </a>
   {{ end }}
   {{ template "_internal/pagination.html" . }}
 </div>
