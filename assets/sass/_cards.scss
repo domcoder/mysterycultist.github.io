@@ -1,148 +1,155 @@
-// General card
-.card {
-  overflow: hidden;
+// General card styles
+.card, .smallCard, .tagTitleCard, .singlePost {
   border-radius: 6px;
-  background: var(--bgSoft);
-  box-shadow: 0 4px 8px var(--shadow);
-  padding: 1rem;
-  margin-top: 2rem;
+  background-color: var(--bgSoft);
 }
 
+// Card description
 .cardDescription {
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    hyphens: auto;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    line-clamp: 3;
-    -webkit-box-orient: vertical;
-    display:box;
-    box-orient: vertical;
-    flex: 2;
-    padding-left: 0.5rem;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 2 1 0;
+  color: var(--text);
+  font-weight: 600;
+  white-space: normal; 
+  word-break: break-word;
+  overflow-wrap: break-word;
+  padding: 0.5rem;
 }
 
-// Blog page card
-.smallCard {
+// Card info
+.cardInfo {
+  color: var(--textSoft);
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+}
+
+// Common card hover effects
+.smallCard, .largeCard {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: var(--bgSoft);
-  border-radius: 6px;
-  overflow: hidden;
-  height: 100%;
-}
-
-.smallCard:hover {
-  transform: translateY(-4px);
   transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
+.smallCard:hover, .largeCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px var(--shadow);
+}
+
+// Large card (home screen wide card)
+.largeCard {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  background-color: var(--bgSoft);
+
+  .cardLargeImage {
+    margin-right: 0.5rem;
+    border-right: 2px solid #838383;
+    padding-right: 0.5rem;
+
+    img, .fakeimg {
+      width: 10rem;
+      height: 10rem;
+      border-radius: 4px;
+      display: block;
+    }
+  }
+}
+
+// Popular posts section
+.popular-posts {
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.fakeimg {
+  background: var(--offWhite);
+  height: 100px;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+// Small card image (blog page)
+.cardSmallImage {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.smallCard {
+  padding: 0;
+  flex: 1 1 auto;
+}
+
+// Tag title card
+.tagTitleCard {
+  text-align: center;
+  min-width: 15rem;
+  max-width: 30rem;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+// Tag text
 .tagText {
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   flex: 1;
 }
 
-.cardInfo {
-  color: var(--textSoft);
-  margin-top: auto;
-}
-
-// Home screen wide cards
-.largeCard {
-    display: flex;
-    align-items: flex-start;
-
-    .cardLargeImage {
-        border-right: 2px solid #838383;
-        img, .fakeimg {
-        max-width: 100%;
-        border-radius: 4px;
-        display: block;
-        }
-    }
-}
-
-.largeCard:hover {
-    transform: translateY(-4px);
-    transition: box-shadow 0.3s ease, transform 0.3s ease;
-}
-
-// Home screen small cards (popular)
-.popular-posts {
-  overflow: hidden;
-  max-width: 100%;
-}
-.fakeimg {
-  box-sizing: border-box;
-  background: #eee;
-  height: 100px;
-  margin-bottom: 1rem;
-}
-
-// Blog page small cards
-.cardSmallImage {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-}
-
-// Tags cards
-.tagTitleCard {
-  background: var(--bgSoft);
-  text-align: center;
-  border-radius: 6px;
-  margin-top: 2rem;
-  padding: 1rem;
-  min-width: 15rem;
-  max-width: 30rem;
-  margin: 2rem auto 0 auto; 
-}
-
-.tagText {
-  padding: 0.75rem;
-}
-
 // About me card
 .about-me {
-  .about-img {
-    width: 8rem;
-    float: left;
-    margin-right: 1rem;
-  }
+  padding: 1rem;
+    .about-img {
+        width: 8rem;
+        min-width: 3rem;
+        float: left;
+        margin-right: 1rem;
+    } 
 }
 
-// Ko-Fi card
+// Ko-Fi button
 .custom-kofi-button {
   display: inline-block;
   padding: 0.5rem;
   background: var(--bg);
-  color: var(--textWhite);
+  color: var(--offWhite);
   border-radius: 6px;
   font-weight: 600;
+  text-decoration: none;
+  margin-top: 0.5rem;
+}
+
+.tipMeContainer {
+  padding: 1rem;
 }
 
 .custom-kofi-button:hover {
   background: var(--textHover);
 }
 
-// Single post card
-.single-post {
-  background: var(--bgSoft);
-  padding: 2rem;
+// Single post
+.singlePost {
   min-height: 600px;
-  margin: auto;
-  color: var(--text);
-  overflow-wrap: break-word;
-  hyphens: auto;
-  border-radius: 6px;
-  margin-top: 2rem;
   max-width: 1000px;
+  color: var(--text);
+  background-color: var(--parchment);
+  padding: 6rem;
+  margin: auto;
 
-    .post-header, .cardDescription, .post-tags {
-        margin-bottom: 1rem;
-    }
+  .postHeader, .cardDescription, .postTags {
+    margin-bottom: 1rem;
+  }
+
+  .postTags {
+    color: var(--textSoft);
+    font-size: 0.9rem;
+    font-weight: 800;
+  }
 }

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Untagged on The Mystery Cultist</title>
+    <link>http://localhost:1313/tags/untagged/</link>
+    <description>Recent content in Untagged on The Mystery Cultist</description>
+    <generator>Hugo</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Tue, 24 Jun 2025 18:33:00 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Day four of endless coding</title>
+      <link>http://localhost:1313/posts/2025-06-24/</link>
+      <pubDate>Tue, 24 Jun 2025 18:33:00 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2025-06-24/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;p&gt;&lt;code&gt;Eating noodles for dinner like your average software developer, feeling very in-character.&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h5 id=&#34;heres-some-notes-ive-made-for-the-future-of-the-website&#34;&gt;Here&amp;rsquo;s some notes I&amp;rsquo;ve made for the future of the website&lt;/h5&gt;&#xA;&lt;h1 id=&#34;notes&#34;&gt;Notes&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Standardise containers &amp;amp; reduce overlap in code (mostly done)&lt;/li&gt;&#xA;&lt;li&gt;Find how to make the &amp;lsquo;popular posts&amp;rsquo; section work&lt;/li&gt;&#xA;&lt;li&gt;Add some images to break everything&lt;/li&gt;&#xA;&lt;li&gt;Make a cultist SVG to test scaling&lt;/li&gt;&#xA;&lt;li&gt;Copyright © MysteryCultist 2025. All rights reserved.&lt;/li&gt;&#xA;&lt;li&gt;Write one decent-length blog (this one, probably)&lt;/li&gt;&#xA;&lt;li&gt;&amp;ldquo;I am the lord of the troupe, teller of stories and purveyor of small game pieces&amp;rdquo;&lt;/li&gt;&#xA;&lt;li&gt;Could probably shrink the size of the main page articles - the image could be smaller and the description text won&amp;rsquo;t realistically fill the space&lt;/li&gt;&#xA;&lt;li&gt;Add more tags&lt;/li&gt;&#xA;&lt;li&gt;To-bottom button for blog/tag pages&lt;/li&gt;&#xA;&lt;li&gt;Find out how to do new lines in markdown&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;fun-ideas&#34;&gt;Fun ideas&lt;/h3&gt;&#xA;&lt;p&gt;Set up a custom email&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

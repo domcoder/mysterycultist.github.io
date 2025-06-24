@@ -1,20 +1,23 @@
 {{ define "main" }}
-<article class="single-post">
-  <header class="post-header">
+<article class="singlePost">
+  <header class="postHeader">
     <h1 class="post-title">{{ .Title }}</h1>
-    <p class="post-date">{{ .Date.Format "02 Jan 2006" }}</p>
+    <p class="postDate">{{ .Date.Format "02 Jan 2006" }}</p>
     {{ with .Params.image }}
       <img src="{{ . }}" alt="{{ $.Title }}" class="post-featured-image"/>
     {{ end }}
     {{ with .Params.authors }}
       <p class="post-authors">By {{ delimit . ", " }}</p>
     {{ end }}
+    <p>
+      {{ .Params.description | default "No description provided." }}
+    </p>
   </header>
-  <section class="cardDescription">
+  <section class="blogContent">
     {{ .Content }}
   </section>
   {{ with .Params.tags }}
-  <footer class="post-tags">
+  <footer class="postTags">
     <strong>Tags:</strong> {{ range $index, $tag := . }}
       {{ if $index }}, {{ end }}<a href="/tags/{{ $tag | urlize }}/">{{ $tag }}</a>
     {{ end }}

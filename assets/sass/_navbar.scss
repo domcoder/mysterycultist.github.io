@@ -1,56 +1,60 @@
 .navbar {
   display: flex;
-  flex-wrap: wrap; 
-  justify-content: space-between;
-  background-color: var(--bgSoft);
-  border-radius: 6px;
-  gap: 1rem;
-  height: auto;
-  padding: 1rem 2rem;  
-}
-
-.logo {
-  display: flex;
+  flex-direction: column;
   align-items: center;
-  font-weight: 800;
-  font-size: 3rem;
-  color: var(--text);
-  flex-shrink: 0;
+  padding: 1rem 0;
+  background: var(--bg);
+
+  .navbarTop {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: #d4af37;
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    .navbarLogo {
+      height: 6rem;
+      width: auto;
+    }
+  }
 }
 
-.logo img {
-  width: 3rem;
-  height: 3rem;
-  object-fit: contain;
-}
-
-.links {
+.navbarLinks {
   display: flex;
   align-items: center;
   gap: 25px;
   font-size: 2rem;
-  font-weight: 500;
+  font-weight: 800;
   min-width: 0;
   flex-shrink: 1;
+
+  display: flex;
+  gap: 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-top: #d4af37 2px solid;
+  border-bottom: #d4af37 2px solid;
 }
 
-.links a {
-  color: var(--text);
+.navbarLinks a {
+  color: var(--gold);
   padding: 0.5rem;
   border-radius: 6px;
 }
 
-.links a:hover,
-.links a:focus {
-  background-color: var(--textHover);
+.navbarLinks a:hover,
+.navbarLinks a:focus {
+  color: var(--offWhite);
 }
 
 .searchButton {
   display: flex;
   align-items: center;
   gap: 8px;
-  background: var(--bgSoft);
-  color: var(--textSoft);
+  background: var(--gold);
+  color: var(--gold);
   padding: 6px 14px;
   border-radius: 12px;
   font-weight: 500;
@@ -59,7 +63,7 @@
 
 .searchButton:hover,
 .searchButton:focus {
-  background-color: var(--textHover);
+  background-color: var(--gold);
 }
 
 .searchButton svg {
@@ -73,19 +77,20 @@
   align-items: center;
   gap: 8px;
   position: relative;
+  padding-bottom: 1rem;
 }
 
 .searchContainer svg {
   width: 20px;
   height: 20px;
-  fill: currentColor;
+  fill: var(--gold);
 }
 
 .searchContainer input {
   padding: 0.5rem 1rem;
   border: 1px solid var(--border);
   border-radius: 6px;
-  background: var(--bgSoft);
+  background: var(--gold);
   color: var(--text);
   width: 200px;
   transition: width 0.3s ease;

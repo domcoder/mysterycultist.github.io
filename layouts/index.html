@@ -2,8 +2,8 @@
 <body class="homepage">
     <div class="row">
         <div class="leftcolumn">
-            {{ range first 3 (where .Site.RegularPages "Section" "posts") }}
-            <a href="{{ .Permalink }}" class="largeCard-link">
+            {{ range first 4 (where .Site.RegularPages "Section" "posts") }}
+            <a href="{{ .Permalink }}" class="largeCardLink">
             <article class="card largeCard">
                 <div class="cardLargeImage">
                 {{ with .Params.image }}
@@ -40,9 +40,9 @@
                 <div class="fakeimg">Image</div>
                 <div class="fakeimg">Image</div>
             </section>
-            <section class="card tip-me">
+            <section class="card tipMeContainer">
                 <h3>Tip Me</h3>
-                <p>Buy me arcane ingredients via Ko-Fi.</p>
+                <p>Aid in purchasing ingredients.</p>
                 <a href="https://ko-fi.com/themysterycultist" target="_blank" class="custom-kofi-button">
                     Toss A Coin
                 </a>

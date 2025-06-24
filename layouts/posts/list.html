@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="cardGrid">
   {{ range sort (where .Paginator.Pages ".Params.authors" "!=" nil) "Date" "desc" }}
-  <a href="{{ .Permalink }}" class="smallCard postCardLink" style="background-image: url('/images/paper.webp');">
+  <a href="{{ .Permalink }}" class="smallCard cardLink">
     <img
       src="{{ .Params.image }}"
       alt="{{ .Title }}"
@@ -13,7 +13,7 @@
       <p class="cardDescription">{{ .Params.description }}</p>
       <div class="cardInfo">
         <div class="dateText">
-          <time>{{ dateFormat .Site.Params.dateFormat .Date }}</time> |
+          <time>{{ dateFormat .Site.Params.dateFormat .Date }}</time></time> |
           <span class="listItemAuthors">{{ with .Params.authors }}{{ delimit . ", " }}{{ end }}</span>
         </div>
       </div>
