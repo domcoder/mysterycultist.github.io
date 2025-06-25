@@ -35,14 +35,42 @@
             </section>
 
             <section class="card popular-posts">
-                <h3>Popular Posts</h3>
-                <div class="fakeimg">Image</div>
-                <div class="fakeimg">Image</div>
-                <div class="fakeimg">Image</div>
+                <h3>My Recommendations</h3>
+
+                {{ with site.GetPage "posts/2025-06-24.md" }}
+                <a href="{{ .Permalink }}" class="slabCardLink">
+                    <article class="card slabCard">
+                    <div class="cardDescription">
+                        <h4>{{ .Title }}</h4>
+                    </div>
+                    </article>
+                </a>
+                {{ end }}
+
+                {{ with site.GetPage "posts/2025-06-24.md" }}
+                <a href="{{ .Permalink }}" class="slabCardLink">
+                    <article class="card slabCard">
+                    <div class="cardDescription">
+                        <h4>{{ .Title }}</h4>
+                    </div>
+                    </article>
+                </a>
+                {{ end }}
+
+                {{ with site.GetPage "posts/2025-06-24.md" }}
+                <a href="{{ .Permalink }}" class="slabCardLink">
+                    <article class="card slabCard">
+                    <div class="cardDescription">
+                        <h4>{{ .Title }}</h4>
+                    </div>
+                    </article>
+                </a>
+                {{ end }}
             </section>
+
             <section class="card tipMeContainer">
                 <h3>Tip Me</h3>
-                <p>Aid in purchasing ingredients.</p>
+                <p>Fund my collection of arcane ingredients.</p>
                 <a href="https://ko-fi.com/themysterycultist" target="_blank" class="custom-kofi-button">
                     Toss A Coin
                 </a>

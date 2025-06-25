@@ -1,5 +1,5 @@
 // General card styles
-.card, .smallCard, .tagTitleCard, .singlePost {
+.card, .smallCard, .tagTitleCard, .singlePost, .slabCard {
   border-radius: 6px;
   background-color: var(--bgSoft);
 }
@@ -112,6 +112,12 @@
         float: left;
         margin-right: 1rem;
     } 
+}
+
+// Recommendations card
+.slabCard {
+  background-color: var(--bgAlternative);
+  margin: 1rem;
 }
 
 // Ko-Fi button
