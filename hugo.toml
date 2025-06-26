@@ -17,3 +17,6 @@ title = 'The Mystery Cultist'
     maxDeletes = 256
     target = ''
     workers = 10
+
+[markup.goldmark.renderer]
+    hardWraps = true

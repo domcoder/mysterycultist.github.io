@@ -1,10 +1,20 @@
 {{ define "main" }}
 <article class="singlePost">
   <header class="postHeader">
-    <h1>{{ .Title }}</h1>
+    <h1 class="post-title">{{ .Title }}</h1>
+    <h5>
+      {{ .Params.description | default "" }}
+    </h5>
   </header>
-  <section class="cardDescription">
+  <section class="markdownBody">
     {{ .Content }}
   </section>
+  {{ with .Params.tags }}
+  <footer class="postTags">
+    <strong>Tags:</strong> {{ range $index, $tag := . }}
+      {{ if $index }}, {{ end }}<a href="/tags/{{ $tag | urlize }}/">{{ $tag }}</a>
+    {{ end }}
+  </footer>
+  {{ end }}
 </article>
 {{ end }}
