@@ -48,7 +48,6 @@
 
   .cardLargeImage {
     margin-right: 0.5rem;
-    border-right: 2px solid #838383;
     padding-right: 0.5rem;
 
     img, .fakeimg {
@@ -137,7 +136,8 @@
 }
 
 .custom-kofi-button:hover {
-  background: var(--textHover);
+  color: var(--text);
+  background-color: var(--gold);
 }
 
 // Single post

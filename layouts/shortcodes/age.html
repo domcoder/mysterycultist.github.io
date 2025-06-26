@@ -1,0 +1,16 @@
+{{ $birthDate := time "2002-01-01" }}
+{{ $now := now }}
+{{ $age := sub ($now.Year) ($birthDate.Year) }}
+
+{{ if or (lt $now.Month $birthDate.Month) (and (eq $now.Month $birthDate.Month) (lt $now.Day $birthDate.Day)) }}
+  {{ $age = sub $age 1 }}
+{{ end }}
+
+{{ $words := slice
+  "" "one" "two" "three" "four" "five" "six" "seven" "eight" "nine"
+  "ten" "eleven" "twelve" "thirteen" "fourteen" "fifteen" "sixteen" 
+  "seventeen" "eighteen" "nineteen" "twenty" "twenty-one" "twenty-two" 
+  "twenty-three" "twenty-four" "twenty-five" "twenty-six" "twenty-seven" 
+  "twenty-eight" "twenty-nine" "thirty" }}
+
+{{ index $words $age }}

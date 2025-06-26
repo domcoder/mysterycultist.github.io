@@ -3,9 +3,9 @@ title = "Game Master Cheatsheet"
 description = "Roleplaying session preparation ideas combined in shortform. Rest assured you need only choose the aspects that call to you, with some experimentation for variety. The only session you need to plan for is the next one."
 +++
 
-&nbsp;
-
 ---
+
+&nbsp;
 
 ### Overview
 For those endlessly trawling advice in search of the holy grail of ideas, here is a list for your consideration.

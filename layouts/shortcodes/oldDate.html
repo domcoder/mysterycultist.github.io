@@ -1,0 +1,15 @@
+{{ $year := now.AddDate -1459 0 0 }}
+{{ $shortYear := $year.Format "06" }}
+{{ $n := int $shortYear }}
+
+{{- $suffix := "th" -}}
+{{- if or (eq (mod $n 100) 11) (eq (mod $n 100) 12) (eq (mod $n 100) 13) -}}
+  {{ $suffix = "th" }}
+{{- else -}}
+  {{- if eq (mod $n 10) 1 }}{{ $suffix = "st" }}
+  {{- else if eq (mod $n 10) 2 }}{{ $suffix = "nd" }}
+  {{- else if eq (mod $n 10) 3 }}{{ $suffix = "rd" }}
+  {{- end -}}
+{{- end -}}
+
+{{ printf "%d%s" $n $suffix }}
