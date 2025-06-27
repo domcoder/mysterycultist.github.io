@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on The Mystery Cultist</title>
-    <link>https://mysterycultist.com/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on The Mystery Cultist</description>
     <generator>Hugo</generator>
     <language>en-uk</language>
     <lastBuildDate>Thu, 26 Jun 2025 09:04:17 +0100</lastBuildDate>
-    <atom:link href="https://mysterycultist.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Devlog</title>
-      <link>https://mysterycultist.com/tags/devlog/</link>
+      <link>http://localhost:1313/tags/devlog/</link>
       <pubDate>Thu, 26 Jun 2025 09:04:17 +0100</pubDate>
-      <guid>https://mysterycultist.com/tags/devlog/</guid>
+      <guid>http://localhost:1313/tags/devlog/</guid>
       <description></description>
     </item>
   </channel>

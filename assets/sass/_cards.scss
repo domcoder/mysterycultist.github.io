@@ -57,6 +57,17 @@
       display: block;
     }
   }
+
+  .cardDescription {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .cardDescription h6 {
+    margin-top: auto;
+    align-self: flex-end;
+  }
 }
 
 // Popular posts section
