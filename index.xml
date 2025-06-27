@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on The Mystery Cultist</title>
+    <link>https://mysterycultist.com/</link>
+    <description>Recent content in Home on The Mystery Cultist</description>
+    <generator>Hugo</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Thu, 26 Jun 2025 09:04:17 +0100</lastBuildDate>
+    <atom:link href="https://mysterycultist.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>An Introduction To Two Esteemed Companions</title>
+      <link>https://mysterycultist.com/posts/2025-06-26/</link>
+      <pubDate>Thu, 26 Jun 2025 09:04:17 +0100</pubDate>
+      <guid>https://mysterycultist.com/posts/2025-06-26/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;h2 id=&#34;tehir-minchenzatht-haraldson-wise-hermetic-wizard&#34;&gt;Tehir Minchenzatht Haraldson, wise hermetic wizard&lt;/h2&gt;&#xA;&lt;p&gt;Permit me to introduce the first and perhaps most formidable of my companions—a gentleman and scholar who delights in his solitude atop his lofty tower. Acting both as mentor and guide, he is a master in the study of the games we so ardently play. A gatherer of knowledge and guardian of forgotten lore, he is a man with whom an evening of discourse feels but a fleeting moment, no matter how many hours we while away in debate amist the early hours of the morning, the quiet hillside bathed in moonlight at the top of his lofty tower.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Coding Day 4: Fixing Markdown</title>
+      <link>https://mysterycultist.com/posts/2025-06-24/</link>
+      <pubDate>Tue, 24 Jun 2025 18:33:00 +0100</pubDate>
+      <guid>https://mysterycultist.com/posts/2025-06-24/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;Eating noodles for dinner like your average software developer, feeling very in-character.&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h5 id=&#34;heres-some-notes-ive-made-for-the-future-of-the-website&#34;&gt;Here&amp;rsquo;s some notes I&amp;rsquo;ve made for the future of the website&lt;/h5&gt;&#xA;&lt;h1 id=&#34;notes&#34;&gt;Notes&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Standardise containers &amp;amp; reduce overlap in code (mostly done)&lt;/li&gt;&#xA;&lt;li&gt;Find how to make the &amp;lsquo;popular posts&amp;rsquo; section work&lt;/li&gt;&#xA;&lt;li&gt;Add some images to break everything&lt;/li&gt;&#xA;&lt;li&gt;Make a cultist SVG to test scaling&lt;/li&gt;&#xA;&lt;li&gt;Copyright © MysteryCultist 2025. All rights reserved.&lt;/li&gt;&#xA;&lt;li&gt;Write one decent-length blog (this one, probably)&lt;/li&gt;&#xA;&lt;li&gt;&amp;ldquo;I am the lord of the troupe, teller of stories and purveyor of small game pieces&amp;rdquo;&lt;/li&gt;&#xA;&lt;li&gt;Could probably shrink the size of the main page articles - the image could be smaller and the description text won&amp;rsquo;t realistically fill the space&lt;/li&gt;&#xA;&lt;li&gt;Add more tags&lt;/li&gt;&#xA;&lt;li&gt;To-bottom button for blog/tag pages&lt;/li&gt;&#xA;&lt;li&gt;Find out how to do new lines in markdown&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;fun-ideas&#34;&gt;Fun ideas&lt;/h3&gt;&#xA;&lt;p&gt;Set up a custom email&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Day 3 Test 2 - Testing long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, posts.</title>
+      <link>https://mysterycultist.com/posts/2025-06-23-2/</link>
+      <pubDate>Mon, 23 Jun 2025 18:33:00 +0100</pubDate>
+      <guid>https://mysterycultist.com/posts/2025-06-23-2/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s really long lines of text&lt;br&gt;&#xA;IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII&lt;br&gt;&#xA;O&lt;br&gt;&#xA;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;br&gt;&#xA;XXX&lt;/p&gt;&#xA;&lt;p&gt;o&lt;br&gt;&#xA;o&lt;br&gt;&#xA;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Test Blog 3</title>
+      <link>https://mysterycultist.com/posts/2025-06-23/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://mysterycultist.com/posts/2025-06-23/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;p&gt; &lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Test Blog 2</title>
+      <link>https://mysterycultist.com/posts/2025-06-22/</link>
+      <pubDate>Sun, 22 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://mysterycultist.com/posts/2025-06-22/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Hey, this is test blog post #2.&lt;/p&gt;&#xA;&lt;p&gt;Once-over of markdown.&lt;/p&gt;&#xA;&lt;h1 id=&#34;title&#34;&gt;Title&lt;/h1&gt;&#xA;&lt;h2 id=&#34;title-h2&#34;&gt;Title H2&lt;/h2&gt;&#xA;&lt;h3 id=&#34;small-title&#34;&gt;Small title&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Bold text.&lt;/strong&gt;&lt;br&gt;&#xA;&lt;em&gt;Italics.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Quote text&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;cardGrid item one&lt;/li&gt;&#xA;&lt;li&gt;cardGrid item two&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Mhh&lt;/li&gt;&#xA;&lt;li&gt;Evil&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;code&gt;Code text.&lt;/code&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://mysterycultist.com&#34;&gt;Web Link&lt;/a&gt;&lt;br&gt;&#xA;&lt;img src=&#34;https://mysterycultist.com/images/icon.webp&#34; alt=&#34;Image&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Test Blog 1</title>
+      <link>https://mysterycultist.com/posts/2025-06-21/</link>
+      <pubDate>Sat, 21 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://mysterycultist.com/posts/2025-06-21/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Learned a few things about the website.&lt;/p&gt;&#xA;&lt;p&gt;Use hugo server -F -D so that you can see future-scheduled and draft posts.&lt;/p&gt;&#xA;&lt;p&gt;Another paragraph to test summary.&lt;/p&gt;&#xA;&lt;p&gt;And another.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://mysterycultist.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mysterycultist.com/about/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Greetings, dear reader,&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;I trust this finds you in good spirits and curious enough to peer behind the curtain at the humble scribe who pens these missives. It is with no small pleasure I offer this account of myself—&lt;strong&gt;Quintino Gonzago&lt;/strong&gt;—a modest master of a travelling troupe, devoted to performing in the style of &lt;em&gt;la commedia dell’arte&lt;/em&gt;, and an ardent practitioner of the noble pastime of roleplaying games.&lt;/p&gt;&#xA;&lt;h3 id=&#34;who-am-i&#34;&gt;Who Am I&lt;/h3&gt;&#xA;&lt;p&gt;Though I am younger than many who lead such ventures, fortune has set me upon this curious road. Although I was never gifted upon the stage myself, I have long harboured a love for storytelling—since boyhood, when I would conjure fantastical realms and valiant heroes alongside my parents, weaving tales that sought to rival the grand myths of old. The farther I journey from my modest hamlet, the more wondrous and peculiar this world of mine reveals itself to be.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Game Master Cheatsheet</title>
+      <link>https://mysterycultist.com/cheatsheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mysterycultist.com/cheatsheet/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;h3 id=&#34;overview&#34;&gt;Overview&lt;/h3&gt;&#xA;&lt;p&gt;For those endlessly trawling advice in search of the holy grail of ideas, here is a list for your consideration.&lt;/p&gt;&#xA;&lt;p&gt;In the end, the only thing that matters is that your players felt like they were heard, and that they mattered and that they can make a difference.&lt;/p&gt;&#xA;&lt;h3 id=&#34;how-does-it-fit-together&#34;&gt;How Does It Fit Together&lt;/h3&gt;&#xA;&lt;p&gt;Your primary goal as a games master is to simulate an interesting world for your players to get to feel like their cool, silly and wildly foresightless actions mattered and made a difference in the game world.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

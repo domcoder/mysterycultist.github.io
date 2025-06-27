@@ -1,8 +1,0 @@
-- name: Fighter
-  hitdice: 1d8
-- name: Priest
-  hitdice: 1d6
-- name: Thief
-  hitdice: 1d4
-- name: Wizard
-  hitdice: 1d4

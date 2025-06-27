@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+<title>About</title>
+
+
+
+<link rel="stylesheet" href="https://mysterycultist.com/sass/main.min.css">
+<link rel="icon" href="/favicon.ico" />
+    </head>
+
+    <body>
+        <div class="container">
+            <nav class="navbar">
+    <div class="navbarTop">
+      <img src="/images/iconGold.webp" alt="MysteryCultist icon" class="navbarLogo">
+      <span class="navbar-title">MYSTERY CULTIST</span>
+    </div>
+    <div class="navbarLinks">
+        <a href="/">Home</a>
+        <a href="/posts/">Blog</a>
+        <a href="/cheatsheet">Cheatsheet</a>
+        <a href="/tags">Tags</a>
+        <a href="/about">About</a>
+    </div>
+    <div class="searchContainer">
+        
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" 
+            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" height="25" width="25"
+            viewBox="0 0 122.88 78.5" style="enable-background:new 0 0 122.88 78.5" 
+            xml:space="preserve"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style>
+            <g>
+                <path class="st0" fill="#d4af37" d="M50.57,17.2C40.73,10.31,31,8.79,20.94,11.42c2.2-5.29,5.51-8.76,9.4-10.39c5.51-2.31,14.53-0.67,18.08,4.27 C50.24,7.82,51.15,11.56,50.57,17.2L50.57,17.2z M83.52,55.32c-0.27-1.12,0.43-2.24,1.55-2.51c1.12-0.27,2.24,0.43,2.51,1.55 c0.54,2.27,1.47,4.03,2.71,5.3c1.27,1.29,2.9,2.12,4.84,2.5c1.13,0.22,1.86,1.31,1.64,2.44c-0.22,1.13-1.31,1.86-2.44,1.64 c-2.76-0.55-5.13-1.76-7-3.67C85.54,60.75,84.24,58.35,83.52,55.32L83.52,55.32z M13.54,55.32c-0.27-1.12,0.43-2.24,1.55-2.51 c1.12-0.27,2.24,0.43,2.51,1.55c0.54,2.27,1.47,4.03,2.71,5.3c1.27,1.29,2.9,2.12,4.84,2.5c1.13,0.22,1.86,1.31,1.64,2.44 c-0.22,1.13-1.31,1.86-2.44,1.64c-2.76-0.55-5.13-1.76-7-3.67C15.56,60.75,14.26,58.35,13.54,55.32L13.54,55.32z M61.3,47.71 c2.8,0,5.07,2.21,5.07,4.93c0,2.72-2.27,4.93-5.07,4.93c-2.8,0-5.07-2.21-5.07-4.93C56.23,49.92,58.5,47.71,61.3,47.71L61.3,47.71z M26.66,34.57c10,0,18.11,7.88,18.11,17.61c0,9.72-8.11,17.61-18.11,17.61c-10,0-18.11-7.88-18.11-17.61 C8.55,42.45,16.65,34.57,26.66,34.57L26.66,34.57z M96.64,34.57c10,0,18.11,7.88,18.11,17.61c0,9.72-8.11,17.61-18.11,17.61 c-10,0-18.11-7.88-18.11-17.61C78.53,42.45,86.63,34.57,96.64,34.57L96.64,34.57z M72.31,17.2c9.84-6.89,19.57-8.41,29.62-5.78 c-2.2-5.29-5.51-8.76-9.4-10.39C87.02-1.28,78,0.36,74.46,5.3C72.64,7.82,71.73,11.56,72.31,17.2L72.31,17.2z M107.57,17.4 c-3.42-3.52-8.96-5.11-16.63-4.77c-8.69,0.43-17.87,4.06-20.82,12.29c-2.47-5.42-14.89-5.42-17.35,0 c-2.95-8.23-12.13-11.87-20.82-12.29c-7.67-0.34-13.2,1.26-16.63,4.77C10.5,23.86,0.96,40.74,0.16,48.99 C-3.1,82.47,44.92,90.87,52.62,56.3c4.37,7.75,13.27,7.75,17.64,0c7.7,34.58,55.72,26.17,52.46-7.31 C121.92,40.74,112.38,23.86,107.57,17.4L107.57,17.4z"/>
+            </g>
+        </svg>
+        <form action="/posts/" method="get" class="searchContainer">
+            <input type="text" id="searchInput" name="q" placeholder="Search posts...">
+        </form>
+    </div>
+</nav>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const params = new URLSearchParams(window.location.search);
+  const query = params.get("q");
+  if (query) {
+    document.getElementById("searchInput")?.value == query;
+    
+    requestAnimationFrame(() => filterPosts(query));
+  }
+
+    const input = document.getElementById("searchInput");
+    if (input) {
+    input.addEventListener("input", function(e) {
+        filterPosts(e.target.value);
+    });
+    }
+});
+
+function filterPosts(query) {
+  query = query.toLowerCase();
+  const items = document.querySelectorAll('.smallCard');
+
+  items.forEach(item => {
+    const title = item.querySelector('.listItemTitle')?.innerText.toLowerCase() || '';
+    const desc = item.querySelector('.cardDescription')?.innerText.toLowerCase() || '';
+    const date = item.querySelector('time')?.innerText.toLowerCase() || '';
+    const authors = item.querySelector('.listItemAuthors')?.innerText.toLowerCase() || '';
+
+    if (title.includes(query) || desc.includes(query) || date.includes(query) || authors.includes(query)) {
+      item.style.display = '';
+      item.style.opacity = 0;
+      item.style.transform = 'translateY(10px)';
+      requestAnimationFrame(() => {
+        item.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
+        item.style.opacity = 1;
+        item.style.transform = 'translateY(0)';
+      });
+    } else {
+      item.style.display = 'none';
+    }
+  });
+}
+</script>
+            
+<article class="singlePost">
+  <header class="postHeader">
+    <h1 class="post-title">About</h1>
+    <h5>
+      
+    </h5>
+  </header>
+  <section class="markdownBody">
+    <hr>
+<p> </p>
+<p>Greetings, dear reader,</p>
+<p> </p>
+<p>I trust this finds you in good spirits and curious enough to peer behind the curtain at the humble scribe who pens these missives. It is with no small pleasure I offer this account of myself—<strong>Quintino Gonzago</strong>—a modest master of a travelling troupe, devoted to performing in the style of <em>la commedia dell’arte</em>, and an ardent practitioner of the noble pastime of roleplaying games.</p>
+<h3 id="who-am-i">Who Am I</h3>
+<p>Though I am younger than many who lead such ventures, fortune has set me upon this curious road. Although I was never gifted upon the stage myself, I have long harboured a love for storytelling—since boyhood, when I would conjure fantastical realms and valiant heroes alongside my parents, weaving tales that sought to rival the grand myths of old. The farther I journey from my modest hamlet, the more wondrous and peculiar this world of mine reveals itself to be.</p>
+<h3 id="what-i-do">What I Do</h3>
+<p>By day (and often night), I devote my energies to the writing for personal roleplaying games, the seeking of work for myself and my troupe, and the occasional scholarly flirtation with the occult, aided by a small but treasured collection of grimoires. For over 9 years, I have beckoned players into mystical realms, and I vow this crusade shall endure &rsquo;till every story has been told.</p>
+<h3 id="my-goals">My Goals</h3>
+<p>I chiefly aim to guide those who bear the mantle of gamemaster who find themselves adrift amid the endless discourse surrounding our craft, while accommodating any who are curious about my travels through the stange lands I claim as home. Herein, I shall muse upon campaign and session design, debate the eternal questions of our hobby, and offer a trove of treasures—magical items, evocative locations, and scenario ideas to make you burst with creative spirits—though personally I prefer red wine. Ultimately, I aim to forge a master compendium of knowledge and advice, a tome to guide both myself and fellow wanderers in this uncertain landscape.</p>
+<h3 id="my-history">My History</h3>
+<p>Though I spent two or so years with friends using half-baked and mis-remembered rules, my first true venture into roleplaying found me as a rogue in the realm of Dungeons &amp; Dragons 3.5e. Lost amidst a shadowed forest, my hapless character approached a cabin and met an instantaneous end upon an explosive trap—a &rsquo;landmine&rsquo;—to the bemusement of my games master. The session ended swiftly after that—the frail owner of the house transforming into a shadowy, spindly entity who chased the remaining adventurers into a fog before the session ended.</p>
+<p> <br>
+Though no heroic inauguration, the session gave structure to a passion that led me through many campaigns—mainly in Dungeons &amp; Dragons 5e—and then onwards to explorations of GURPS, Shadowdark, Call of Cthulhu, Old School Essentials, and Fate. I have gathered, sifted, and refined wisdom from many sages, ever in search of the perfect formula—though it remains as elusive as ever.</p>
+<h3 id="philosophy">Philosophy</h3>
+<p>My guiding principle is simple: let the actions of the players affect the world around them, and from this alone can tales worth carving into rock be formed.</p>
+<p> </p>
+<p>Many thanks for your kind attention. I hope you will linger a while longer in these pages.</p>
+<p> </p>
+<p>With sincere regards,</p>
+<p> </p>
+<p>Quin, the Mystery Cultist</p>
+
+  </section>
+  
+</article>
+
+            
+ 
+ <div class="footer">
+    <a href="/">MysteryCultist </a>
+ </div>
+
+
+        </div>
+    </body>
+</html>
