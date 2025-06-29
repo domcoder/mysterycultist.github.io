@@ -7,6 +7,8 @@ hide_footer = true
 
 &nbsp;
 
+# Placeholder text, unfinished
+
 Greetings, dear reader,
 
 &nbsp;
