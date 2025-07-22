@@ -13,7 +13,7 @@ Greetings, dear reader,
 
 &nbsp;
 
-I trust this finds you in good spirits and curious enough to peer behind the curtain at the humble scribe who pens these missives. It is with no small pleasure I offer this account of myself—**Quintino Gonzago**—a modest master of a travelling troupe, devoted to performing in the style of *la commedia dell’arte*, and an ardent practitioner of the noble pastime of roleplaying games.
+I trust this finds you in good spirits and inquisitive enough to peer behind the curtain at the humble scribe who pens these missives. It is with no small pleasure I offer this account of myself—**Quintino Gonzago**—a modest master of a travelling troupe, devoted to performing in the style of *la commedia dell’arte*, and an ardent practitioner of the noble pastime of roleplaying games.
 
 ### Who Am I
 Though I am younger than many who lead such ventures, fortune has set me upon this curious road. Although I was never gifted upon the stage myself, I have long harboured a love for storytelling—since boyhood, when I would conjure fantastical realms and valiant heroes alongside my parents, weaving tales that sought to rival the grand myths of old. The farther I journey from my modest hamlet, the more wondrous and peculiar this world of mine reveals itself to be.
